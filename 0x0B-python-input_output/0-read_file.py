@@ -4,6 +4,7 @@
 
 def read_file(filename=""):
     """function definition to read from the file"""
+
     with open(filename, "r", encoding="UTF-8") as file:
-        data = file.read()
-        print(data)
+        """function to open the file before reading it"""
+        print(file.read(), end="")
