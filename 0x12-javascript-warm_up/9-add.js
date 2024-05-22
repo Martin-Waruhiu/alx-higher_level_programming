@@ -6,8 +6,6 @@ function add (a, b) {
 
   if (!isNaN(num1) && !isNaN(num2)) {
     console.log(num1 + num2); // Print the sum of the two numbers
-  } else {
-    console.log('Invalid numbers');
   }
 }
 // Get the command line arguments (excluding the first two default arguments)
