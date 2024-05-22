@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 
 function add (a, b) {
   const num1 = parseInt(a, 10); // Convert first argument to an integer
