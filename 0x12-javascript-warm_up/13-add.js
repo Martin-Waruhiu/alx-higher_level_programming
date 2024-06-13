@@ -1,7 +1,5 @@
-// Define the function named 'add'
-function add(a, b) {
-    return a + b;
-}
+#!/usr/bin/node
 
-// Export the function to make it visible from outside
-module.exports.add = add;
+exports.add = function add (a, b) {
+  return a + b;
+};
