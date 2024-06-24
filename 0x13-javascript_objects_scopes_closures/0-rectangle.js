@@ -2,6 +2,4 @@
 
 //creating a simple class"""
 
-class Rectangle {
-
-}
+module.exports = class Rectangle {}
